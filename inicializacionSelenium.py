@@ -35,6 +35,7 @@ class inicioSelenium():
             print(".....El click se realizó completamente.....")
             time.sleep(5)
             self.driver.refresh()
+            
         
         def fin(self):
             self.driver.close()
